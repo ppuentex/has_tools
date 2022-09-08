@@ -9,7 +9,12 @@ h: height in meters
 T0: temp in Kelvin 
 '''
 
+
+# %%
 import math 
+import numpy as np 
+
+#%% 
 
 # p0 = 101325
 # M = 0.02896968
@@ -18,6 +23,7 @@ import math
 # T0 = 273
 
 h_list = range(0, 1000, 100)
+#%% 
 
 def air_pressure_at_height(h):
     p0 = 101325
